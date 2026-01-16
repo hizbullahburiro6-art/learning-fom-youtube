@@ -62,4 +62,4 @@ for ( let number = 1; number <= 10; number++){
     console.log("Hizbullah Buriro")
 }
 
-console.log("lops has been ended")
+console.log("lops has been end")
