@@ -40,6 +40,12 @@
 //     console.log(num, "num is not multiple of 5")
 // }
 
+// let num = prompt("entera numebr")
+
+// if(num % 5 === 0 ){
+//     console.log("multiple of 5")
+// }
+
 
 // let marks =48;
 // let grade;
@@ -58,8 +64,20 @@
 // console.log("according to your score ,your grade was " ,grade)
 
 
-for ( let number = 1; number <= 10; number++){
-    console.log("Hizbullah Buriro")
-}
+// for ( let number = 1; number <= 10; number++){
+//     console.log("number", number)
+// }
 
-console.log("lops has been end")
+// console.log("lops has been end")
+
+
+// for ( let number = 1; number <=10; number++){
+//     console.log("Hizbullah Buriro from sukkur IBa cntral cafe teria as caisher of faculty counter")
+// }
+
+let num = 1;
+while (num <=5){
+    console.log(num);
+    num++
+
+}
