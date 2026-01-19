@@ -75,9 +75,79 @@
 //     console.log("Hizbullah Buriro from sukkur IBa cntral cafe teria as caisher of faculty counter")
 // }
 
-let num = 1;
-while (num <=5){
-    console.log(num);
-    num++
+// let num = 1;
+// while (num <=5){
+//     console.log(num);
+//     num++
 
-}
+// let i = 100
+// do{
+//     console.log("Hizbullah",)
+//     i++
+// }while(i <=5); 
+// let str = "Hizbullah"
+
+// let size = 0
+
+// for (let i of str){
+//     console.log("i=",i)
+//     size++
+// }
+
+// console.log("str size ",size)
+
+// let student={
+//     name: "Hizbullah",
+//     age: 19,
+//     cgps: 7.6,
+//     isppas: true,
+    
+
+// }
+
+// for(let key in student){
+//     console.log(key, student[key])  
+    
+// }
+
+// for(let num=0; num<=100; num++){
+//     if(num%2 ===0){
+//         console.log(num)
+//     }
+// }
+
+
+// let gameNum = 30
+// let userNum = prompt("guess the game number ");
+
+// while(userNum != gameNum){ 
+//     userNum = prompt(" try again")
+   
+// } 
+// console.log("congratulation you won the game ")
+
+
+
+
+// let num = 25
+// let user = prompt("fill in the blank")
+
+// while(user != num){
+//    user = prompt("try again")
+// }
+
+// console.log("congrTULATION")
+
+
+// let num = 20
+// let uNum = prompt("enter your number")
+
+// while( uNum != num){
+//    uNum = prompt("try again")
+// }
+
+// console.log("congrsts you won the game ")
+ 
+
+let str = "Hizbullah\tBuriro";
+console.log(str.toUpperCase());
