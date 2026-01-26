@@ -149,5 +149,70 @@
 // console.log("congrsts you won the game ")
  
 
-let str = "Hizbullah\tBuriro";
-console.log(str.toUpperCase());
+
+
+
+// let str1 = "hizbullah"
+// let str2 = "Buriro"
+// let res = str2.concat(str1)
+
+// console.log(res)
+
+
+// let n = 'Hizbullah'
+// console.log(n.replace("Hiz", "ras"))
+
+
+// let st = "Hizbullah"
+// let st2 = "Buriro"
+
+// let result = st.concat(str2);
+
+// console.log(result)
+
+
+// let number = 30;
+// let userNum = prompt("enter your name")
+
+// while(number != userNum){
+//     userNum = prompt("try again")
+// }
+
+// console.log("congratilation you won the game ")
+
+//  let fullName = prompt("Enter your full name without spaces");
+//  let userName = "@".concat(fullName).concat(fullName.length);
+//  console.log(userName);
+
+
+// let FullName = prompt("enter your name without spaces")
+// let userName = "@".concat(FullName).concat(FullName.length);
+// console.log(userName)
+
+
+// let fullname = prompt("enter your name")
+// let username = "@".concat(fullname).concat(fullname.length)
+// console.log(username)
+
+// let heroes  = ["Hizbullah", "ironman", "johnwick", "antman", "Salman khan"]
+// // for(let i=0; i<heroes.length; i++){
+// //     console.log(heroes[i])
+// // }
+    
+// for(let ele of heroes){
+//     console.log(ele)
+// }
+
+
+// let cities = ["Sukkur" , "Jacobabd","karachi","Islamabad","Lahore"]
+
+// for(let city of cities){
+//     console.log(city.toUpperCase())
+// }
+
+let marks = ["30","40","50","60","85"];
+
+let sum = 0;
+for(let val of marks){
+    console.log(val)
+}
