@@ -210,9 +210,23 @@
 //     console.log(city.toUpperCase())
 // }
 
-let marks = ["30","40","50","60","85"];
+// let marks = [40,30,50,50,70,];
 
-let sum = 0;
-for(let val of marks){
-    console.log(val)
+// let sum = 0;
+// for(let val of marks){
+//     sum += val
+// }
+
+// let avg = sum / marks.length
+// console.log(`avg marks of the class ${avg}`)
+
+
+let items = [250,460,355,250,];
+let index = 0;
+for(let val of items){
+    console.log(`value at index and {index} = ${val}`);
+    let offer = val / 10;
+    items[index] = items[index] -offer;
+    console.log(`value after offer ${items[index]}`)
+    index++;
 }
