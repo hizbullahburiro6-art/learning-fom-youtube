@@ -221,12 +221,49 @@
 // console.log(`avg marks of the class ${avg}`)
 
 
-let items = [250,460,355,250,];
+// let items = [250,460,355,250,];
+// let index = 0;
+// for(let val of items){
+//     console.log(`value at index and {index} = ${val}`);
+//     let offer = val / 10;
+//     items[index] = items[index] -offer;
+//     console.log(`value after offer ${items[index]}`)
+//     index++;
+// }
+
+let items = [100,200,400,500,300];
 let index = 0;
-for(let val of items){
-    console.log(`value at index and {index} = ${val}`);
+for(let val of items ){
+   
     let offer = val / 10;
-    items[index] = items[index] -offer;
+    items[index] = items[index] -= offer;
     console.log(`value after offer ${items[index]}`)
-    index++;
+    index++
+
 }
+
+
+
+
+
+
+
+
+
+
+
+// let items = [250,460,355,250,];
+// for(let i = 0;i < items.length; i++){
+//     let offer = items[i] / 10;
+//     items[i] -= offer;
+// }
+// console.log(items)
+
+
+// let items = [250,200,300,400];
+// for(let i = 0; i < items.length; i++){
+//     let offer = items[i] / 10;
+//     items[i] -= offer;
+// }
+
+// console.log(items)
