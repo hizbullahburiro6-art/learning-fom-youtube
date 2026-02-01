@@ -283,9 +283,21 @@
 // console.log(foodItems)
 
 
-let suzuku_collection =  ["Mehran","Alto","swift","cultus"]
-let toyota_collection = ["Yasir","Vits","grandy","Landcruiser"]
+// let suzuku_collection =  ["Mehran","Alto","swift","cultus"]
+// let toyota_collection = ["Yasir","Vits","grandy","Landcruiser"]
+// let honda_collection = ["City","honda civic","Hondai"]
 
 
-let heroes = suzuku_collection.concat(toyota_collection)
-console.log(heroes)
+// let heroes = suzuku_collection.concat(toyota_collection,honda_collection)
+// console.log(heroes)
+
+
+// let fruits = ["Apple","Banana","Graps"]
+//  let val = fruits.unshift("alu")
+//  console.log(val)
+
+
+let names = ["ali","Hammad","Hizbullah","samad","kashif"];
+console.log(names)
+
+console.log(names.splice(2,2,"hyee","amar"))
