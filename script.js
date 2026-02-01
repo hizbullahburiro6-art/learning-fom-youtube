@@ -231,16 +231,16 @@
 //     index++;
 // }
 
-let items = [100,200,400,500,300];
-let index = 0;
-for(let val of items ){
+// let items = [100,200,400,500,300];
+// let index = 0;
+// for(let val of items ){
    
-    let offer = val / 10;
-    items[index] = items[index] -= offer;
-    console.log(`value after offer ${items[index]}`)
-    index++
+//     let offer = val / 10;
+//     items[index] = items[index] -= offer;
+//     console.log(`value after offer ${items[index]}`)
+//     index++
 
-}
+// }
 
 
 
@@ -267,3 +267,25 @@ for(let val of items ){
 // }
 
 // console.log(items)
+
+
+// let foodItems = ["Apple","tomato","Aluu","banana","Graps"];
+
+// console.log(foodItems);
+//  let deleteval =  foodItems.pop();
+//  console.log(foodItems)
+// console.log("Deleted",deleteval);
+
+// let foodItems = ["Apple","burger","Banana","tomato"];
+// let marks = [60,70,80,90];
+// console.log(foodItems);
+// console.log(foodItems.toString());
+// console.log(foodItems)
+
+
+let suzuku_collection =  ["Mehran","Alto","swift","cultus"]
+let toyota_collection = ["Yasir","Vits","grandy","Landcruiser"]
+
+
+let heroes = suzuku_collection.concat(toyota_collection)
+console.log(heroes)
